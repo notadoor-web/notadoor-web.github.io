@@ -1,0 +1,28 @@
+{
+  "name": "notadoor",
+  "version": "1.0.0",
+  "description": "notadorr website",
+  "author": "Anton",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.16.0",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-flowtype": "^2.41.0",
+    "eslint-plugin-html": "^4.0.1",
+    "eslint-plugin-vue": "^4.2.0"
+  }
+}
